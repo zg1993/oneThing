@@ -1,0 +1,95 @@
+applyName: '',
+idCardNum: '',
+applyPhone: '',
+applySex: '',
+nation: '',
+applyBirthDay: '',
+residence: '', // 特殊拆分
+residenceType: '',
+whetherMarried: '',
+education: '',
+graduationSchool: '',
+graduationTime: '',
+liveAddress: '',
+whetherEmploymentDifficulties: '',
+//灵活就业登记
+employmentDifficultiesTime: '',
+employmentDifficultiesAddress: '',
+employmentDifficultiesType: '',
+employmentDifficultiesItem: '',
+//add
+employmentRegisterNum:'', // 传空
+
+//社会保险登记
+wheherDifficultiesInsurance:'',//是、否 itemPicker
+insuranceArea: '',
+//add
+applyInsuranceTime:'',
+
+//基本医疗保险参保登记
+//itemPicker
+whetherMedicalInsurance:'', //参保  参保变更 
+medicalInsuranceArea: '',
+
+//灵活就业社会保险费申报
+applyType:'',// 线上 线下  itemPicker
+applyArea: '',
+
+        // if (ItemEnumLHJY.LHJY == itemName) {
+        //   employmentColumns.value = columns;
+        // }
+        // if (ItemEnumLHJY.SHBX == itemName) {
+        //   insuranceColumns.value = columns;
+        // }
+        // if (ItemEnumLHJY.JBYLBX == itemName) {
+        //   medicalColumns.value = columns;
+        // }
+        // if (ItemEnumLHJY.RYSHBXF == itemName) {
+        //   applyColumns.value = columns;
+        // }
+      
+
+
+  const formState = reactive({
+    // test: '2000年11月11日',
+    //basic
+    applyName: userStore.userInfo.name,
+    idCardNum: userStore.userInfo.cardid,
+    applyPhone: userStore.userInfo.mobile,
+    applySex: '男',
+    nation: '汉族',
+    applyBirthDay: getBrithByIdCard(userStore.userInfo.cardid, 'YYYY年MM月'),
+    registeredResidence: '文昌街道', // 特殊拆分
+    // residenceType: '农业',
+    natureTrue: '是',
+    natureFalse: '',
+    whetherMarried: '已婚',
+    education: '小学',
+    graduationSchool: '东华理工大学',
+    graduationTime: '1999年12月11日',
+    liveAddress: '地址',
+    whetherEmploymentDifficulties: '否',
+    //灵活就业登记
+    employmentDifficultiesTime: '',
+    employmentDifficultiesAddress: '',
+    employmentDifficultiesType: '',
+    employmentDifficultiesItem: '',
+    //add
+    employmentRegisterNum: '', //提交成功返回
+
+    //社会保险登记
+    wheherProcessInsurance: '', //办理/不办理该事项 itemPicker
+    insuranceArea: 'b',
+    //add
+    applyInsuranceTime: '1999年12月11日',
+
+    //基本医疗保险参保登记
+    wheherProcessMedical: '', // 办理/不办理该事项 itemPicker
+    whetherMedicalInsurance: '参保变更', //参保  参保变更
+    medicalInsuranceArea: 'c',
+
+    //灵活就业社会保险费申报
+    wheherProcessApply: '', // 办理/不办理该事项  itemPicker
+    applyArea: '',
+  });
+

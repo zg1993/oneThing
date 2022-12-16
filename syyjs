@@ -1,0 +1,111 @@
+[
+    {
+        "DOCUMENT_ID": "D16F546736694EF9A24D7E06CD664CEE",
+        "DOCUMENT_NAME": "江西省失业保险金申请登记表",
+        "TYPE": "1",
+        "MUST": true,
+        "FILE_NAME": "江西省失业保险金申请登记表",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "5250BDEA36754B21814E3204F90C7200",
+        "DOCUMENT_NAME": "申请人的身份证或户口簿",
+        "TYPE": "1",
+        "MUST": true,
+        "FILE_NAME": "申请人的身份证或户口簿",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "45F9F6D8304D4E9B931DEB9190D08B5D",
+        "DOCUMENT_NAME": "申请人的工商银行卡",
+        "TYPE": "1",
+        "MUST": true,
+        "FILE_NAME": "申请人的工商银行卡",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "3257D84378CB4541956B9F860D628D5A",
+        "DOCUMENT_NAME": "所在单位出具的终止或者解除劳动合同证明",
+        "TYPE": "1",
+        "MUST": true,
+        "FILE_NAME": "所在单位出具的终止或者解除劳动合同证明",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "A14346408157450EB679540124C1600F",
+        "DOCUMENT_NAME": "申请人4张一寸免冠照片",
+        "TYPE": "1",
+        "MUST": true,
+        "FILE_NAME": "申请人4张一寸免冠照片",
+        "FILE_PATH": ""
+    }
+]
+江西省失业保险金申请登记表
+申请人的身份证或户口簿
+申请人的工商银行卡
+所在单位出具的终止或者解除劳动合同证明
+申请人4张一寸免冠照片
+
+
+身份证
+《就业创业证》（或《就业失业登记证》）
+失地农民证明---非必填
+《中华人民共和国残疾人证》
+零就业家庭证明---非必填
+享受城市居民最低生活保障家庭证明---非必填
+[
+    {
+        "DOCUMENT_ID": "27EFF53299B04CD6986325E619B32F73",
+        "DOCUMENT_NAME": "身份证",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "440600C1D858498DA14E4E42E1075064",
+        "FILE_NAME": "身份证",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "8A1944EE675E47A791C5D9AD696EF17E",
+        "DOCUMENT_NAME": "《就业创业证》（或《就业失业登记证》）",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "E2698A1FF453481FB0B6EE2AF855EB90",
+        "FILE_NAME": "《就业创业证》（或《就业失业登记证》）",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "AB35A2D8046C4CC8B11DF5F78D6DE1E8",
+        "DOCUMENT_NAME": "失地农民证明",
+        "TYPE": "1",
+        "MUST": false,
+        "DOCUMENT_CODE": "252083976FFD485C9E8AF2C6A6B38D3E",
+        "FILE_NAME": "失地农民证明",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "CB667374AF92451DBF96C4D191BDC1EA",
+        "DOCUMENT_NAME": "《中华人民共和国残疾人证》",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "466F97194B1745AD8FB90B96C020B2FB",
+        "FILE_NAME": "《中华人民共和国残疾人证》",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "A107587485DE48E98849658FE6629EC2",
+        "DOCUMENT_NAME": "零就业家庭证明",
+        "TYPE": "1",
+        "MUST": false,
+        "DOCUMENT_CODE": "39B00D2BA4E147C4BCE627DF7BAC60AD",
+        "FILE_NAME": "零就业家庭证明",
+        "FILE_PATH": ""
+    },
+    {
+        "DOCUMENT_ID": "A640B9FEB8224E54AE8893FF4FC13F82",
+        "DOCUMENT_NAME": "享受城市居民最低生活保障家庭证明",
+        "TYPE": "1",
+        "MUST": false,
+        "DOCUMENT_CODE": "213EE85B02D94FD79AA4590C29B2390D",
+        "FILE_NAME": "享受城市居民最低生活保障家庭证明",
+        "FILE_PATH": ""
+    }
+]

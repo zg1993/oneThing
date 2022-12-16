@@ -1,0 +1,15 @@
+办件反馈
+一窗接口
+url: 'https://gft.fzyjszx.com/fzt/business/getBusinessData',
+method: 'POST',
+data: formData,
+
+formData格式Form Data
+param: {"appid":"fztwdbj","key":"7bb701f706a74578b9311eb2614b670c","from":"1","jmzfc":"fzmt8167","paramStr":"{'loginname':'wdfzapp', 'pwd':'111111a', 'yyid':'99'}","method":"/YSL/Service/getBusinessList","requestType":"get","realParas":"{\"Type\":0,\"ID\":\"身份证号\"}"}
+
+返回
+{"result":true,"message":"{\"state\":\"200\",\"info\":[{\"APPLY_SUBJECT\":\"关于周刚就业登记的申请\",\"RECEIVE_NUMBER\":\"36100184B620221130000630\",\"ITEM_NAME\":\"就业登记\",\"PICKUP_TIME\":1669773704000,\"REGION_CODE\":\"361000000000\",\"REGION_NAME\":\"抚州市\",\"ORG_NAME\":\"抚州市人力资源和社会保障局\",\"ORG_CODE\":\"361001000201010000\",\"ASSORT\":\"2\",\"SUBMIT_TIME\":1669773704000,\"STATE\":\"11\",\"ITEM_CODE\":\"361000-000201010000-GG-126-03\",\"APPLY_TYPE\":\"B1\",\"APPLY_FROM\":\"14\",\"FARESTATE\":\"-\",\"OPINION\":\"-\"}]}"}
+
+事项提交成功返回
+message: "{\"password\":\"926098\",\"state\":\"200\",\"receiveNum\":\"361001E8E020221216000471\",\"error\":\"\"}"
+result: true
