@@ -1,3 +1,16 @@
+员工录用表单
+单位地址 linkAddress
+社保单位编码 sheBaoDanWeiBianMa
+社保 insuranceArea
+就业登记信息 就业地 employmentArea
+社会保险参保信息 参保地 insuranceArea
+基本医疗保险参保信息 参保地 medicalArea
+社会保障卡申领 socialSecurityArea
+联名银行 bank
+收件人 addressee
+收件人联系电话 addresseePhone
+邮寄地址 mailingAddress
+
 applyName: '',
 idCardNum: '',
 applyPhone: '',
