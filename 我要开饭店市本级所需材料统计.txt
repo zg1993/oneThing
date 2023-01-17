@@ -1,0 +1,240 @@
+
+
+ShenQingRen
+:rules="[{ pattern: IDCardPattern, message: '请输入正确的身份证号' }]"
+
+ :rules="[{ pattern: PhonePattern, message: '请输入正确的手机号' }]"
+
+申请人姓名 ShenQingRenXingMing
+身份证号 ShenFenZhengHao
+申请人手机号 ShenQingRenShouJiHao
+申请人证件地址 ShenQingRenZhengJianDiZhi
+性别 xingbie
+申请人是否代理 ShenQingRenshifoudaili
+申请人是否法人代表 ShenQingRenshifoufarendaibiao
+出件方式 ChuJianFangShi
+---
+收件人姓名 ShouJianRenXingMing
+收件人手机号 ShouJianShouJiHao
+收件人邮编 ShouJianRenYouBian
+收件人地址 ShouJianRenDiZhi
+--
+
+
+企业所在区域 QiYeSuoZaiQuYu
+
+
+
+    ShenQingRenLeiXing: '',
+    LianXiRenXingMing: '',
+    ChuShengRiQi: '',
+    ShiFouWeiWaiJi: '',
+    WenHuaChengDu: '',
+    ZuoJiHaoMa: '',
+    JiGuan: '',
+    LianXiRenDianHua: '',
+    LianXiRenDiZhi: '',
+    LianXiRenYouXiang: '',
+申请人类型 ShenQingRenleixing
+联系人姓名 lianxirenxingming
+出生日期 chushengriqi
+是否为外籍 shifouweiwaiji
+文化程度 wenhuachengdu
+座机号码 zuojihaoma
+籍贯 jiguan
+联系人电话 lianxirendianhua
+联系人地址 lianxirendizhi
+联系人邮箱 lianxirenyouxiang
+
+  ShenQingRenXingMing: '',
+    ShenFenZhengHao: '',
+    ShenQingRenShouJiHao: '',
+    ShenQingRenZhengJianDiZhi: '',
+    XingBie: '',
+    ShenQingRenShiFouDaiLi: '',
+    ShenQingRenShiFouFaRenDaiBiao: '',
+
+//企业申请
+单位名称 DanWeiMingCheng
+单位类型 DanWeiLeiXing
+法定代表人姓名 FaDingDaiBiaoRenXingMing
+法定代表人性别 FaDingDaiBiaoRenXingBie
+法定代表人证件类型 FaDingDaiBiaoRenZhengJianLeiXing
+法定代表人证件号 FaDingDaiBiaoRenZhengJianHao
+法定代表人籍贯 FaDingDaiBiaoRenJiGuan
+单位证件类型 DanWeiZhengJianLeiXing
+单位证件号码 DanWeiZhengJianHaoMa
+单位联系人姓名 DanWeiLianXiRenXingMing
+单位联系人移动电话 DanWeiLianXiRenYiDongDianHua
+单位联系人地址 DanWeiLianXiRenDiZhi
+单位联系人邮箱 DanWeiLianXiRenYouXiang
+单位联系人固定电话 DanWeiLianXiRenGuDingDianHua
+
+
+
+
+
+"MUST": true,必传
+ "MUST": false,非必传
+
+
+建设工程消防备案 361000-000201013000-QT-067-01
+[
+    {
+        "DOCUMENT_ID": "0F8822CD5C1D408DBC05BDB21A0ED3AC",
+        "DOCUMENT_NAME": "建设工程消防验收备案表",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "B1C365E2EEAD4555B64BDF5D7B09879F"
+    },
+    {
+        "DOCUMENT_ID": "42EA38B52ADC41B5B1BEFF3B89748EA2",
+        "DOCUMENT_NAME": "消防工程竣工验收报告",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "B5233ADE4CA342B4BF3E345ECCCA30EB"
+    },
+    {
+        "DOCUMENT_ID": "6F25930A65C4424CA61A66645D75C9EE",
+        "DOCUMENT_NAME": "消防设计文件",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "4C528072DB6E401597D231151896B84B"
+    }
+]
+
+
+临时占用城市道路361000-000201047000-XK-038-13
+
+[
+    {
+        "DOCUMENT_ID": "6A38706A41504B6996BFFDD61FA73945",
+        "DOCUMENT_NAME": "行政许可申请书",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "EFFA29C6F0B04CF983B793465778256D"
+    },
+    {
+        "DOCUMENT_ID": "43CD7CCFE8D54011809C9451C5CE49CE",
+        "DOCUMENT_NAME": "中华人名共和国居民身份证",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "BE188E900B818B3CE053AD0A020A32F8"
+    },
+    {
+        "DOCUMENT_ID": "43B8CAEF3BE4427290E887B5D4A265BD",
+        "DOCUMENT_NAME": "场地设置效果图",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "BE188E900B838B3CE053AD0A020A32F8"
+    },
+    {
+        "DOCUMENT_ID": "B735A0FEAD2444539F1C851D04FFEDFF",
+        "DOCUMENT_NAME": "营业执照",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "BE188E900B828B3CE053AD0A020A32F8"
+    },
+    {
+        "DOCUMENT_ID": "8B84AAF3CB224FDBA2BB6665D8EA8AE5",
+        "DOCUMENT_NAME": "委托书",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "BE188E900B808B3CE053AD0A020A32F8"
+    }
+]
+
+核发《食品经营许可证》361000-000201031000-XK-161-01-01
+[
+    {
+        "DOCUMENT_ID": "3BE90A071F3540F8B445242C6A09C383",
+        "DOCUMENT_NAME": "《食品经营许可申请书》",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "0CCF69A8C66D4A899AC7D541DFC3A78C"
+    },
+    {
+        "DOCUMENT_ID": "FB2F570A71E844DA98F35F5342AFE941",
+        "DOCUMENT_NAME": "营业执照或者其他主体资格证明文件复印件",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "DDD3A2B1260248F484311B26472ED9A4"
+    },
+    {
+        "DOCUMENT_ID": "A663C0C93D78433EB80A3319AA817EC0",
+        "DOCUMENT_NAME": "与食品经营相适应的主要设备设施布局文件",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "0870E5D5F344452C934728476CFEFBDE"
+    },
+    {
+        "DOCUMENT_ID": "FEF87C69B48E4D55876A3B33233EEC30",
+        "DOCUMENT_NAME": "食品经营场所外设置的仓库（包括自有和租赁）布局图",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "2E1F09B77F0148E1BAC1E7597A4F37C9"
+    },
+    {
+        "DOCUMENT_ID": "B2E17DA3BC584513BA8428243731E9F2",
+        "DOCUMENT_NAME": "食品安全规章制度",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "18D4DE0878B545119EB05EBFEF4EE7E5"
+    },
+    {
+        "DOCUMENT_ID": "7F2B88A4F56944A6BD03848EB248AF7E",
+        "DOCUMENT_NAME": "自动售货设备的产品合格证明、具体放置地点，经营者名称、住所、联系方式、食品经营许可证的公示方法等材料。",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "E421A97AB13E4775A065064D4202FA04"
+    },
+    {
+        "DOCUMENT_ID": "2403789B75154D7F8D74E322BD21E057",
+        "DOCUMENT_NAME": "代理人身份证",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "82BC0828AC474C62958809BE2A957FF9"
+    },
+    {
+        "DOCUMENT_ID": "1AD613286667445CA4A98A368EACEA9F",
+        "DOCUMENT_NAME": "代理人的授权委托书",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "0D6420B6E1BC4FF598C6B49C0DA32A6B"
+    }
+]
+
+
+公众聚集场所投入使用、营业前消防安全检查 361000-000201058000-XK-037-01
+
+[
+    {
+        "DOCUMENT_ID": "916B378E51C84136B9C0B5F5C8FE6911",
+        "DOCUMENT_NAME": "消防安全检查申报表",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "A1ACDAFE0F8A407A9C9D992E0EAB58F7"
+    },
+    {
+        "DOCUMENT_ID": "7F119F0FD2004DDAA73B95436D02D4D5",
+        "DOCUMENT_NAME": "消防安全制度、灭火和应急疏散预案、场所平面布置图",
+        "TYPE": "1",
+        "MUST": false,
+        "DOCUMENT_CODE": "A8CE0319780B4F588D30E949C58C19E8"
+    },
+    {
+        "DOCUMENT_ID": "5C35AB7FD9ED4EDBADAC84F74FF19341",
+        "DOCUMENT_NAME": "场所平面图、场所消防设施平面图",
+        "TYPE": "1",
+        "MUST": false,
+        "DOCUMENT_CODE": "E1BDA90756C643DC8A46F6F419FC850E"
+    },
+    {
+        "DOCUMENT_ID": "C802239285EF4DC8A378B2E8C74242F6",
+        "DOCUMENT_NAME": "营业执照",
+        "TYPE": "1",
+        "MUST": true,
+        "DOCUMENT_CODE": "29E630EFBB8349FEB324BB6188C32555"
+    }
+]
+
